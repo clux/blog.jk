@@ -1,0 +1,17 @@
+title: clux / blog
+email: analsandblaster@gmail.com
+description: >
+  Words from a private programmer and musician.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+#twitter_username: sszynrae
+github_username:  clux
+
+# Build settings
+markdown: kramdown
+theme: minima
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
